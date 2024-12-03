@@ -1,0 +1,28 @@
+# Core dependencies
+Flask==2.1.2              # For backend API
+Django==4.2.4             # (Alternative to Flask if using Django)
+
+# AI and Machine Learning libraries
+tensorflow==2.13.0        # For building AI models
+torch==2.0.1              # For machine learning
+scikit-learn==1.3.1       # For regression models and yield prediction
+numpy==1.26.0             # Numerical computations
+pandas==2.1.1             # Data analysis
+
+# IoT and Communication
+pyserial==3.5             # For serial communication with IoT sensors
+
+# Weather and External APIs
+requests==2.31.0          # For making HTTP requests to APIs
+python-dotenv==1.0.0      # For environment variable management
+
+# Image processing for pest and disease detection
+opencv-python==4.8.1.78   # For handling image data
+Pillow==10.1.1            # Image file handling
+matplotlib==3.8.1         # Optional: Visualization of processed images/data
+
+# Frontend (if applicable for Python backend)
+flask-cors==3.0.10        # For handling Cross-Origin Resource Sharing
+
+# Deployment and Production
+gunicorn==20.1.0          # For deploying Flask applications
